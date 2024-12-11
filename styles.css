@@ -1,0 +1,127 @@
+мbody {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    background-color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-text {
+    max-width: 80%;
+    color: #000000;
+}
+
+.student-photo {
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: cover;
+    margin-left: 20px;
+}
+
+nav {
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav button {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+nav button:hover {
+    background-color: #333333;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+nav button.active-button {
+    background-color: #666666;
+    color: #000000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+.screen-img {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.text-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    color: #000000;
+}
+
+.content-section {
+    display: none;
+    width: 100%;
+}
+
+.content-section.active {
+    display: flex;
+    width: 1400px;
+}
+
+.sidebar {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.sidebar button {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.sidebar button:hover {
+    background-color: #333333;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar button.active-button {
+    background-color: #666666;
+    color: #000000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#structure p {
+    white-space: pre-line;
+    color: #000000;
+}
